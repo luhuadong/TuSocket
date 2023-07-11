@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(tusockit)
 
+set(CMAKE_BUILD_TYPE "Debug")
+
 # 添加可执行文件
 add_executable(${PROJECT_NAME} src/main.c src/tusockit.c)
 
